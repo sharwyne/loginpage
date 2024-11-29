@@ -1,0 +1,114 @@
+body{
+    background-color:#f1f1f1;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.form-container{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 40%;
+    padding: 50px;
+    margin: 50px;
+}
+
+.form-wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab-button.active{
+    background-color:blue;
+    color: #fff;
+    border: none;
+    margin: 3px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.tab-button2{
+    background-color:#ccc;
+    border: none;
+    margin: 3px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.tab-content.active{
+    padding: 5px;
+    margin: 12px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+width: 100%;
+display: inline-block;
+margin: 5px 0 22px 0;
+padding: 5px;
+}
+
+.remember-forgot-container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-password{
+    text-decoration: none;
+    color: rgb(12, 142, 146);
+}
+
+button:hover{
+    opacity: 1px;
+    background-color: red;
+}
+
+.submit-btn{
+ background-color: blue;
+ color: #fff;
+ border: none;
+ margin: 3px; 
+ height: 25px;
+ border-radius: 4px;  
+}
+
+.google{
+    background-color: rgb(223, 20, 20);
+    color: #fff;
+    border: none;
+    margin: 3px; 
+    height: 25px;
+    border-radius: 4px;   
+}
+
+.facebook{
+    background-color: rgb(19, 19, 122);
+    color: #fff;
+    border: none;
+    margin: 3px; 
+    height: 25px;
+    border-radius: 4px;
+}
+
+.linkedin{
+    background-color: rgb(12, 142, 146);
+    color: #fff;
+    border: none;
+    margin: 3px; 
+    height: 25px;
+    border-radius: 4px;
+}
+
+.github{
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin: 3px; 
+    height: 25px;
+    border-radius: 4px;
+}
+
+.footer-text a{
+    color: rgb(56, 4, 116);
+}
